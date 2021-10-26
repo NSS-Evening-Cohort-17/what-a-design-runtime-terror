@@ -1,0 +1,59 @@
+/* body::-webkit-scrollbar {
+    display: none;
+    background-color: red;
+}
+
+
+
+#f, #s {
+    height: 100%;
+    width: 100%;
+    background-color: red;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Universal selectors */
+
+.app {
+    background-color: red;
+}
+
+.product-list {
+    display: flex;
+}
+
+.product-section {
+    background-color: white;
+    border: 5px solid black;
+}
+
+/* Product list one */
+.section-one {
+    height: 500px;
+    width: 100%;
+    margin: 10px 0;
+    background-color: blue;
+}
+
+.product-list img {
+    height: 400px;
+    width: 420px;
+}
+
+.product-buy-btn p {
+    color: red;
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    text-decoration: blink;
+    font-weight: 800;
+    animation: blinker 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes blinker {
+    from {opacity: 1.0;}
+    to {opacity: 0.0;}
+}
