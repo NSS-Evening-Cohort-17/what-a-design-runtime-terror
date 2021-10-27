@@ -1,0 +1,146 @@
+@import url("https://use.typekit.net/mhc3jdl.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box - sizing: border - box;
+ }
+
+ html {
+     min-height:100%;
+     background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(images/giphy_full.gif);
+     background-size:cover;
+ }
+
+.parent {
+
+  display: grid;
+  position: relative;
+  margin: auto;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+.div1 {
+grid-area: 1 / 1 / 6 / 2;
+padding: 1em;
+background-color: limegreen;
+text-align: center;
+font-family: funkydori, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 5;
+  background-image: url("/images/giphy_01.gif");
+  font-family: funkydori, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(228, 255, 152);
+  font-size: 40pt;
+  text-align: center;
+}
+
+.div3 {
+    grid-area: 7/ 3 / 5 / 5;
+    background-image: url(/images/giphy_02.gif);
+    font-family: funkydori, sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    font-style: normal;
+    color: #ee0a7c;
+    background: rgb(255, 166, 0);
+    padding: .5em;
+}
+
+.div4 {
+  grid-area: 2 / 5 / 4 / 7;
+  background-image: url("/images/giphy_03.gif");
+  font-family: funkydori, sans-serif;
+  font-weight: 700;
+  font-size: 20pt;
+  font-style: normal;
+  color: #009c1a;
+  background: rgb(0, 255, 76);
+  padding:.5em;
+}
+
+.div5 {
+    background-image: url(/images/giphy_04.gif);
+    font-family: funkydori, sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    font-style: normal;
+    color: #9c27b0;
+    background: #2196f3;
+    padding: .5em;
+}
+
+
+.div6 {
+  grid-area: 2 / 7 / 6 / 8;
+  background-image: url("/images/giphy_05.gif");
+}
+
+.div7 {
+  grid-area: 1 / 8 / 3 / 10;
+  background-image: url("/images/giphy_06.gif");
+}
+
+.div8 {
+  grid-area: 4 / 10 / 6 / 12;
+  background-image: url("/images/giphy_07.gif");
+}
+
+.div9 {
+  grid-area: 2 / 12 / 4 / 13;
+  background-image: url("/images/giphy_08.gif");
+}
+
+.div10 {
+  grid-area: 2 / 2 / 4 / 5;
+  background-image: url("/images/giphy_09.gif");
+}
+
+.div11 {
+  grid-area: 3 / 8 / 5 / 11;
+  background-image: url("/images/giphy_10.gif");
+}
+
+.nameButton {
+    font-family: funkydori, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ee0a7c;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 2px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nameButton:hover {
+    border-radius: 1em;
+    background-color: magenta;
+    font-family: funkydori, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ee0a7c;
+    padding: 1em;
+    border: yellow solid 2px;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+        
+}
+
+img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
