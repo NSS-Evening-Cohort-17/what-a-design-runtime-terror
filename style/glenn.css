@@ -1,47 +1,72 @@
-/* body::-webkit-scrollbar {
-    display: none;
-    background-color: red;
-}
-
-
-
-#f, #s {
-    height: 100%;
-    width: 100%;
-    background-color: red;
-} */
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* Universal selectors */
+/* Main content */
 
-.app {
-    background-color: red;
+.sells-header {
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+    border: 4px solid lightgrey;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#main-content {
+    flex-grow: 6;
+    height: 100vh;
+    max-width: 369px;
+    max-width: 100%;
+    border-left: 2px solid lightgray;
+}
+
+#aside-content {
+    flex-grow: 2;
+    border-right: 2px solid lightgray;
+}
+
+.aside-navigation {
+    text-align: center;
+    line-height: 5rem;
+}
+
+/* .product-section {
+    display: flex;
+    background-color: white;
+    margin: 0 15px;
 }
 
 .product-list {
     display: flex;
-}
-
-.product-section {
     background-color: white;
-    border: 5px solid black;
-}
-
-/* Product list one */
-.section-one {
-    height: 500px;
-    width: 100%;
     margin: 10px 0;
-    background-color: blue;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}*/
+
+figure {
+    border: 1px solid black;
+    margin: 2px;
+    max-width: 600px;
+    max-height: auto;
+
 }
 
-.product-list img {
-    height: 400px;
-    width: 420px;
+figcaption {
+    padding: 0;
+    border: 1px solid red;
+}
+
+.product-item img {
+    height: 50px;
+    width: 50px;
 }
 
 .product-buy-btn p {
@@ -50,7 +75,7 @@
     font-family: 'Anton', sans-serif;
     text-decoration: blink;
     font-weight: 800;
-    animation: blinker 1.2s ease-in-out infinite alternate;
+    animation: blinker 0.8s ease-in-out infinite alternate;
 }
 
 @keyframes blinker {
