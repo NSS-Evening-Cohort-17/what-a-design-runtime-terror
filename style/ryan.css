@@ -1,20 +1,51 @@
-body {
-        background-image: url('https://skatronixxx.files.wordpress.com/2016/07/3c611ac327c9cca5e12c42fe4cc845b50e097e2a_hq.jpg?w=610');
-        background-repeat: repeat-x;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-content {
+    flex-grow: 3;
+    height: 50vh;
+    width: 100vh;
+    border-left: 2px solid black;
+    background-color: blue;
+}
+
+body {
+        background-image: url('https://skatronixxx.files.wordpress.com/2016/07/3c611ac327c9cca5e12c42fe4cc845b50e097e2a_hq.jpg?w=610');
+        background-repeat: repeat;
+}
+
+header {
     color: red;
     position: relative ;
     top: 360px
 }
       
-#aside-content {
-        flex-grow: 2;
+.aside-content {
+        display: inline;
         border-right: 2px solid lightgray;
+        background-color: blue;
 }
     
 .aside-navigation {
         text-align: center;
         line-height: 5rem;
+}
+.div1 {
+    display: flex;
+    background-color: grey;
+    color: hotpink;
+    font-weight: 700;
+    font-size: larger;
+}
+.button1 {
+    color: red;
+    font-weight: 700;
 }
