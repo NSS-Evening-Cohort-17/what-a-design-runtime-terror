@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    column-rule: solid 6px;
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      body {
+        background-image: url('https://skatronixxx.files.wordpress.com/2016/07/3c611ac327c9cca5e12c42fe4cc845b50e097e2a_hq.jpg?w=610');
+        background-repeat: repeat-y;
+      }
