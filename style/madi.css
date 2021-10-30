@@ -129,6 +129,7 @@ body {
     height: 380px;
     width: 120px;
     margin-top: -14em;
+    overflow: scroll;
 }
 
 
@@ -146,4 +147,10 @@ body {
     margin-left: 17em;
     margin-top: 2.8em;
     opacity: 90%;
+}
+
+.photos {
+    border-radius :25px;
+    width: 300px;
+    height: 300px;
 }
