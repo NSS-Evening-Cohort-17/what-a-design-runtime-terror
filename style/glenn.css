@@ -7,6 +7,7 @@
 .app {
     padding-left: 150px;
     padding-right: 150px;
+    transform: rotate(180deg);
 }
 
 /* Main content */
