@@ -118,6 +118,8 @@ body {
     border: 1px solid black;
     background-color: cornsilk;
     margin-right: 13em;
+    overflow: scroll;
+    height: auto;
 }
 
 .moreUseless {
@@ -129,6 +131,7 @@ body {
     width: 120px;
     margin-top: -14em;
     overflow: scroll;
+    display: flex;
 }
 
 
@@ -149,7 +152,27 @@ body {
 }
 
 .photos {
+    display:flex;
+    height: 200px;
+    overflow:scroll;
+    flex-direction: column;
+    padding: 0.2em;
+    height: 280px;
+    width: 270px;
+}
+
+#badAd1 {
     border-radius :25px;
-    width: 300px;
-    height: 300px;
+    width: 70px;
+    height: 80px;
+}
+#badAd2 {
+    border-radius :25px;
+    width: 70px;
+    height: 80px;
+}
+#badAd3 {
+    border-radius :25px;
+    width: 20px;
+    height: 30px;
 }
